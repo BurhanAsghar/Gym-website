@@ -1,0 +1,282 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(1, 1, 32);
+}
+
+nav{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: rgb(1, 1, 32);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    box-shadow: 0px, 2px, 6px, 2px, rgb(1, 1, 32);
+    padding: 20px;
+   
+
+}
+
+
+/* nav*/
+
+nav ul{
+ 
+    margin-right: 38px;
+    font-size: 18px;
+}
+
+.logo{
+    margin-left: 20px;
+}
+nav ul a{
+    padding-right: 10px;
+    margin-inline: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+ul a:hover{
+    color: rgb(8, 231, 8);
+    border-bottom: 2px solid rgb(8, 231, 8);
+}
+
+nav button{
+    width: 70px;
+    height: 28px;
+    background-color: rgb(8, 231, 8);
+    color: white;
+    font-size: 18px;
+    border: none;
+
+}
+
+nav button:hover{
+    border: 2px solid rgb(8, 231, 8);
+    background-color: transparent;
+    color: white;
+}
+
+.main{
+   
+    justify-content: center;
+    margin-top: 174px;
+    padding: 20px;
+}
+
+.main h1{
+
+    color:rgb(8, 231, 8);
+    font-size: 70px;
+}
+
+.main h2{
+    font-size: 33px;
+    color:rgb(8, 231, 8);
+
+}
+
+.main p{
+    color : silver;
+    margin-top: 22px;   
+      
+    padding-bottom: 10px;
+}
+
+.main button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(8, 231, 8);
+    color: white;
+    border: none;
+    font-size: 22px;
+}
+/*
+.main img{
+    margin-inline: -86px;
+}
+*/
+.head{
+    text-align: center;
+    padding: 88px;
+    margin-top: 25px;
+    color: white;
+
+}
+
+.head span{
+    color: red;
+}
+
+.train{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+
+.train .card{
+    width: 330px;
+    height: 440px;
+    background-color: rgb(143, 141, 141);
+    margin-inline: 20px;
+    
+
+}
+
+
+.card img{
+    width: 100%;
+}
+.trainText{
+    color: white;
+    padding: 22px;
+}
+
+.card a{
+
+     width: 80px;
+     padding: 6px;
+     background-color: red;
+     color:white;
+     position: relative;
+     top: 18px;
+     text-decoration: none;
+
+}
+
+
+
+.slidebar{
+    margin: 20px;
+    color: white;
+    font-size: medium;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.img{
+    width: 1000px;
+    display: flex;
+    margin: none;
+    overflow: hidden;
+}
+.img img{
+    transition: 0.6s ease;
+    width: 29%;
+    height: 400px;
+    margin-inline: 22px;
+}
+
+.btn{
+    text-align: center;
+    
+    padding: 55px;
+}
+.btn button{
+    width: 90px;
+    height: 30px;
+    background-color: rgb(8, 231, 8);
+    color: white;
+    font-size: 19px;
+    border: none;
+    margin-inline: 22px;
+    cursor: pointer;
+}
+
+
+.btn button:hover{
+    background-color: rgb(12, 78, 12);
+}
+
+.program{
+    display:flex;
+    justify-content: center;
+}
+
+.program .procard{
+    width: 330px;
+    height: 400px;
+    margin-inline: 10px;
+}
+
+.procard:hover{
+    height: 420px;
+    transition: 0.9s ease;
+}
+.program img{
+    width: 100%;
+}
+
+.connect{
+    text-align: center;
+}
+.connect input{
+    width: 400px;
+    padding: 11px;
+    border:none;
+    outline: none;
+    font-size: 20px;
+    margin-top: 11px;
+
+
+}
+
+.connect button{
+   
+    padding: 22px;
+    width: 180px;
+    height: 65px;
+    background-color:rgb(8, 231, 8);
+    color: white;
+    font-size:22px;
+    border: none;
+    margin: 20px;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:silver;
+    color:black;
+    padding: 55px;
+    margin-top: 55px;
+    font-size: 22px;
+
+}
+
+
+.join{
+    display: none;
+    position: absolute;
+    margin-left: 84%;
+    top: 14%;
+    background-color: white;
+    text-align: center;
+    width: 180px;
+    padding: 22px;
+   
+}
+
+.join input{
+    width: 165px;
+    padding: 4px;
+    outline: none;
+    margin-top: 20px;
+}
+
+.join button{
+    width: 90px;
+    height: 30px;
+    background-color: blue;
+    color:white;
+    font-size: 22px;
+    border: none;
+    
+}
